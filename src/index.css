@@ -60,7 +60,7 @@ body {
     sans-serif;
   background-color: var(--dark-bg-color);
   color: var(--text-color);
-  transition: background-color 0.4s;
+  transition: background-color 0.2s;
 }
 
 body.light-theme {
@@ -142,11 +142,11 @@ header.light-theme {
 }
 
 .countries .flag img {
-  border-radius: 5px 5px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .countries .details {
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 10px 10px;
   background-color: var(--article-color);
   margin: -10px 0 30px;
   padding: 20px;
