@@ -68,7 +68,7 @@ const Country = () => {
                     </h5>
                   </div>
 
-                  <div>
+                  <div className="country-details2">
                     <h5>
                       Top Level Domain: <span>{topLevelDomain}</span>
                     </h5>
@@ -82,9 +82,9 @@ const Country = () => {
                 </div>
               </div>
 
-              <div>
+              <div className="borders">
                 <h3>Border Countries: </h3>
-                <div className="borders">
+                <div className="borders2">
                   {borders.map((border) => {
                     return (
                       <ul key={border}>
