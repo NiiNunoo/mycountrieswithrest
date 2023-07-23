@@ -5,6 +5,9 @@ const Header = () => {
     const header = document.querySelector(".header");
     const details = document.querySelectorAll(".details");
     const uls = document.querySelectorAll("ul");
+    const input = document.querySelector("#search");
+    const select = document.querySelector("select");
+    const button = document.querySelector("button");
 
     details.forEach((detail) => {
       detail.classList.toggle("light-theme");
@@ -14,6 +17,10 @@ const Header = () => {
       ul.classList.toggle("light-theme");
     });
     document.body.classList.toggle("light-theme");
+    input.classList.toggle("light-theme");
+    select.classList.toggle("light-theme");
+    button.classlist.toggle("light-theme")
+
   };
 
   return (
