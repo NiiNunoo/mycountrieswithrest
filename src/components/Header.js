@@ -34,7 +34,7 @@ const Header = () => {
           <button className="btn-moon" onClick={() => changeTheme()}>
             <i className="fas fa-moon"></i>
           </button>
-          Dark Mode
+        Dark Mode
         </div>
       </header>
     </>
