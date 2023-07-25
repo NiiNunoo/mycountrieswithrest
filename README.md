@@ -1,3 +1,55 @@
+React Country Web App
+This project is a React web application that displays information about countries using a REST API. It fetches data from the API and presents it in a user-friendly interface, allowing users to explore various details about different countries.
+
+Features
+View a list of countries with their names, flags, populations, regions, and capitals.
+Click on a country to view more detailed information about that country.
+Search for specific countries based on their names.
+Sort countries alphabetically or by region.
+Responsive design for optimal user experience on various devices.
+
+Technologies Used
+-	HyperText Markup Language (HTML)  
+-	React: A JavaScript library for building user interfaces.
+-	React Router: For handling client-side routing and navigation.
+-	CSS: For styling the user interface and enhancing visual appeal.
+-	REST Countries API
+
+API Used
+The application utilizes the REST Countries API to retrieve information about countries. The API provides a wealth of data, including details such as country names, flags, populations, regions, and more.
+
+Getting Started
+To run this project on your local machine, follow these steps in bash:
+1.	Clone the repository:
+git clone https://github.com/NiiNunoo/mycountrieswithrest.git
+2.	Navigate to the project directory:
+cd react-country-info-app
+3.	Install dependencies:
+npm install
+4.	Start the development server:
+npm start
+5.	The application should now be running at http://localhost:3000 in your web browser.
+
+Contributing
+If you find any issues, have suggestions, or want to add new features, you're welcome to contribute to this project, Please make sure that your changes are well tested. Follow these steps to contribute:
+1.	Fork the repository.
+2.	Create a new branch for your feature: git checkout -b feature-name
+3.	Make your changes and commit them: git commit -m "Add feature"
+4.	Push the changes to your fork: git push origin feature-name
+5.	Create a pull request from your branch to the main repository.
+
+Acknowledgments
+Thanks to the creators of the REST Countries API for providing the data used in this application.
+
+Contact
+If you have any questions or enquiries, feel free to contact the me:
+Name: Nii Nunoo
+Email: nii.nunoo@amalitech.org
+
+Thanks for checking out this project!
+
+============================================================================================================================================================================================================================
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
