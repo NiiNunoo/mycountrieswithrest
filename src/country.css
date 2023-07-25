@@ -11,7 +11,7 @@
   display: inline-block;
 }
 
-.country .flag img {
+.country .flagc img {
   border-radius: 10px;
 }
 
@@ -80,7 +80,6 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-  
 }
 
 @media (min-width: 1200px) {
