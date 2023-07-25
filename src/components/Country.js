@@ -44,7 +44,7 @@ const Country = () => {
           return (
             <article key={numericCode}>
               <div className="country-inner">
-                <div className="flag">
+                <div className="flagc">
                   <img src={flag} alt={name} />
                 </div>
 
