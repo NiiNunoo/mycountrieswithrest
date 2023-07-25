@@ -79,7 +79,8 @@ const Countries = () => {
 
             return (
               <Link to={`/countries/${name}`} key={numericCode}>
-                <article>
+                <div>
+                <article className="arts">
                   <div className="flag">
                     <img src={flag} alt={name} />
                   </div>
@@ -98,6 +99,7 @@ const Countries = () => {
                     </h4>
                   </div>
                 </article>
+                </div>
               </Link>
             );
           })}
