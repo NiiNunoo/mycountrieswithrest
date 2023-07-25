@@ -74,22 +74,28 @@ const Filter = ({
   return (
     <>
       <form className="form" id="form" onSubmit={handleSubmit}>
-        <input
-          type="search"
-          name="search"
-          id="search"
-          autoComplete="off"
-          placeholder="Search Country"
-          onChange={(e) => searchCountries(e.target.value)}
+      <div className="search-container">
+      <span className="search-icon">
+      <i className="fa fa-search"></i>
+     </span>
+       <input
+      type="search"
+      name="search"
+      id="search"
+      autoComplete="off"
+      placeholder="Search for a country..."
+      onChange={(e) => searchCountries(e.target.value)}
         />
+        </div>
 
         <div className="select">
           <select
             name="select"
             id="select"
             onChange={(e) => filterRegions(e.target.value)}
-            value={regions.name}
-          >
+            value={regions.name}>
+            <option value="" disabled hidden selected>Filter by Region</option>
+            <option value="All">All</option>
             <option value="Africa">Africa</option>
             <option value="Asia">Asia</option>
             <option value="Europe">Europe</option>
