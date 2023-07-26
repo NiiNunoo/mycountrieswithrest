@@ -149,19 +149,25 @@ header.light-theme {
 .form input::placeholder {
   color: var(--text-color);
   position: relative;
-  left: 40px;
+  left: 30px;
 }
 
-.form input.light-theme,
+.form input::placeholder.light-theme {
+  color: var(--light-mode-text);
+}
+
+.form input.light-theme{
+  background-color: var(--light-mode-background);
+  color: var(--light-mode-text);
+  font-weight: 400;
+}
+
 .form select.light-theme {
   background-color: var(--light-mode-background);
   color: var(--light-mode-text);
   font-weight: 400;
 }
 
-.form input::placeholder.light-theme {
-  color: var(--light-mode-text);
-}
 
 /* Styling for the search container */
 .search-container {
@@ -215,7 +221,14 @@ header.light-theme {
 }
 
 /* Media queries */
+
 @media (min-width: 640px) {
+
+  .form input {
+    /* width: 85vw; */
+    margin-bottom: 8px;
+  }
+
   .countries {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -244,9 +257,11 @@ header.light-theme {
 }
 
 @media (min-width: 992px) {
+
   .countries {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .arts {
     display: flex;
     flex-direction: column;
@@ -268,6 +283,7 @@ header.light-theme {
   .countries {
     grid-template-columns: repeat(4, 1fr);
   }
+
   .arts {
     display: flex;
     flex-direction: column;
@@ -285,15 +301,16 @@ header.light-theme {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 630px) {
+
   .header h1 {
     font-size: 20px;
     padding: 20px 0;
   }
 
   .form input {
-    width: 90vw;
-    margin-bottom: 20px;
+    width: 85vw;
+    margin-bottom: 8px;
   }
 
   .form .select select {
