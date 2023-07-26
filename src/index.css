@@ -109,7 +109,7 @@ header.light-theme {
   padding: 5px;
   border: none;
   background: none;
-  color: #aaa;
+  color: var(--light-mode-background);
 }
 
 .header .btn-moon.light-theme {
@@ -154,7 +154,13 @@ header.light-theme {
 
 .form input.light-theme,
 .form select.light-theme {
-  background-color: var(--light-mode-input);
+  background-color: var(--light-mode-background);
+  color: var(--light-mode-text);
+  font-weight: 400;
+}
+
+.form input::placeholder.light-theme {
+  color: var(--light-mode-text);
 }
 
 /* Styling for the search container */
