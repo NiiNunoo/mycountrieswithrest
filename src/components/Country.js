@@ -87,9 +87,11 @@ const Country = () => {
                 <div className="borders2">
                   {borders.map((border) => {
                     return (
+                      <Link to={`/countries/${border}`} key={numericCode}>
                       <ul key={border}>
                         <li>{border}</li>
                       </ul>
+                      </Link>
                     );
                   })}
                 </div>
