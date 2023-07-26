@@ -9,7 +9,7 @@ const Filter = ({
 }) => {
   const regions = [
     {
-      name: "Filter by region",
+      name: "All",
       desc: "All",
     },
     {
