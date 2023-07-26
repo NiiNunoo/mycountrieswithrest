@@ -19,7 +19,7 @@ const Header = () => {
     document.body.classList.toggle("light-theme");
     input.classList.toggle("light-theme");
     select.classList.toggle("light-theme");
-    button.classlist.toggle("light-theme")
+    button.classList.toggle("light-theme")
 
   };
 
