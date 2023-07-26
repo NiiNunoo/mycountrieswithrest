@@ -2,10 +2,6 @@
   padding: 50px;
 }
 
-.country article .btn.light-theme {
-  background-color:#f7941e ;
-}
-
 .btn-light {
   margin-bottom: 30px;
   display: inline-block;
@@ -66,6 +62,14 @@
   position: relative;
   top: 35px;
   padding-bottom: 20px;
+}
+
+.country link .btn.light-theme {
+  background-color:#f7941e;
+}
+
+.header .btn-moon.light-theme {
+  color: var(--light-mode-text);
 }
 
 @media (min-width: 992px) {
