@@ -13,17 +13,4 @@ export const api = {
         const data = await response.data
         return data;
     },
-    //get country by name
-    getCountry: async (name: string) => {
-        const response = await http.get(`/name/${name}`);
-        const data = await response.data
-        return data;
-    },
-
-    //get country data by code
-    getByCountryCode: async (code: string) => {
-        const response = await http.get(`/alpha/${code}`);
-        return response.data;    
-    }
-
 }
